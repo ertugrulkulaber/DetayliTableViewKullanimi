@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872657542736E9F000CC42DD /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872657532736E9F000CC42DD /* DetayVC.swift */; };
 		875A18632732F15D001B240F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A18622732F15D001B240F /* AppDelegate.swift */; };
 		875A18652732F15D001B240F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A18642732F15D001B240F /* SceneDelegate.swift */; };
 		875A18672732F15D001B240F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A18662732F15D001B240F /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		875A187A2732F15E001B240F /* DetayliTableViewKullanimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A18792732F15E001B240F /* DetayliTableViewKullanimiTests.swift */; };
 		875A18842732F15F001B240F /* DetayliTableViewKullanimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A18832732F15F001B240F /* DetayliTableViewKullanimiUITests.swift */; };
 		875A18862732F15F001B240F /* DetayliTableViewKullanimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A18852732F15F001B240F /* DetayliTableViewKullanimiUITestsLaunchTests.swift */; };
+		875A18932732F24A001B240F /* Urunler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A18922732F24A001B240F /* Urunler.swift */; };
+		875A18952732FC6B001B240F /* UrunTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A18942732FC6B001B240F /* UrunTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		872657532736E9F000CC42DD /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
 		875A185F2732F15D001B240F /* DetayliTableViewKullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetayliTableViewKullanimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875A18622732F15D001B240F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875A18642732F15D001B240F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		875A187F2732F15E001B240F /* DetayliTableViewKullanimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetayliTableViewKullanimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		875A18832732F15F001B240F /* DetayliTableViewKullanimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayliTableViewKullanimiUITests.swift; sourceTree = "<group>"; };
 		875A18852732F15F001B240F /* DetayliTableViewKullanimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayliTableViewKullanimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		875A18922732F24A001B240F /* Urunler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urunler.swift; sourceTree = "<group>"; };
+		875A18942732FC6B001B240F /* UrunTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				875A18642732F15D001B240F /* SceneDelegate.swift */,
 				875A18662732F15D001B240F /* ViewController.swift */,
 				875A18682732F15D001B240F /* Main.storyboard */,
+				875A18942732FC6B001B240F /* UrunTableViewCell.swift */,
+				872657532736E9F000CC42DD /* DetayVC.swift */,
+				875A18922732F24A001B240F /* Urunler.swift */,
 				875A186B2732F15E001B240F /* Assets.xcassets */,
 				875A186D2732F15E001B240F /* LaunchScreen.storyboard */,
 				875A18702732F15E001B240F /* Info.plist */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872657542736E9F000CC42DD /* DetayVC.swift in Sources */,
 				875A18672732F15D001B240F /* ViewController.swift in Sources */,
+				875A18932732F24A001B240F /* Urunler.swift in Sources */,
 				875A18632732F15D001B240F /* AppDelegate.swift in Sources */,
 				875A18652732F15D001B240F /* SceneDelegate.swift in Sources */,
+				875A18952732FC6B001B240F /* UrunTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
